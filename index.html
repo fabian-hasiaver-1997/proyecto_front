@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/Logo-nuevo_logotipo.png" rel="icon">
+    <link href="img/Logo-nuevo_logotipo.png" rel="apple-touch-icon">
+    <link href="https://font.googleapis.com/css2?famliy=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+    <title>Proyecto Frontend</title>
+</head>
+<body>
+    <!--Main content-->
+    <main class="container">
+        <!--Header-->
+        <header class="header">
+            <a href="#" class="logo">
+                <img class="logo_img" src="img/Logo-nuevo_logotipo.png" width="150px" height="100px" alt="logo">
+                DG Automotors
+            </a>
+            <nav class="menu">
+                <scroll-container>
+                <ul class="menu_list">
+                    <li class="menu_list_item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#feautures">Feautures</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#prices">Prices</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#" class="book_appointment">Book Appointment</a>
+                    </li>
+                </ul>
+                </scroll-container>
+            </nav>
+        </header>
+        <!--Content-->
+        <div class="content slider">
+            <a class="slideButton prevSlide"><i class="fa fa-left-long"></i></a>
+            <a class="slideButton nextSlide"><i class="fa fa-right-long"></i></a>
+            <h1 class="content_claim">
+                Your car Repairs?
+            </h1>
+            <h2 class="subclaim">
+                Visit us for your service
+            </h2>
+            <a href="#" class="book_appointment">Book Appointment</a>
+        </div>
+        <article class="content">
+            <h1 id="feautures" class="content_claim">
+                Feautures
+            </h1>
+            <section>
+                <p>
+                    We all have in mind what a high-end car is... or so we think because there are many who wonder what a high-end car is,
+                    what requirements it must meet and how we can distinguish a high-end car from one that it is not. It is, even though it
+                    belongs to the same firm.
+                    
+                    With the experience that years bring us with the sale of high-end cars from the highest-performance premium firms, we
+                    want to tell you the keys to knowing what a high-end car is and how to distinguish it.
+                    
+                    <ul class="feautures_items">
+                        <li class="feautures_list">
+                            <h3 class="feautures_subclaim">
+                                Pointer and iconic design.
+                            </h3>
+                            <p class="feautures_text">
+                                    If a high-end car does not have a valued and identifiable design, as is the case with Porsche, BMW, Ferrari or
+                                    Mercdedes-Benz, it cannot be considered in this segment. The brands we are talking about seek with their designs to take
+                                    their customers to another level, to another lifestyle. The design makes them stand out from the competition and, when
+                                    that car passes, people turn to look at it.
+                            </p>
+                        </li>
+                        <li class="feautures_list">
+                            <h3 class="feautures_subclaim">
+                                Exclusive equipment
+                            </h3>
+                            <p class="feautures_text">
+                                Surely you know, or at least you know, Bang & Olufsen, Burmester, Bower & Wilkins or Naim, they are creators of unique
+                                and exclusive sound systems for certain brands of high-end cars, not present in general brands. Induction chargers for
+                                mobile phones integrated into the car, high-resolution touch screens, adaptive LED lighting, personalized seats adapted
+                                to the client, in short, equipment that can only be found in a high-end car.
+                            </p>
+                        </li>
+                        <li class="feautures_list">
+                            <h3 class="feautures_subclaim">
+                                Premium finishes with exclusive materials.
+                            </h3>
+                            <p class="feautures_text">
+                                In high-end cars, as in people, beauty is on the inside and it is this that gives these cars the name premium. It can
+                                have an innovative and recognizable design but inside it can be pure plastic and medium finishes that will lower that
+                                category car.
+                            </p>
+                        </li>
+                        <li class="feautures_list">
+                            <h3 class="feautures_subclaim">
+                                High-end exterior finishes.
+                            </h3>
+                            <p class="feautures_text">
+                                Carbon, metallic or matt paint, refined lines, iconic led or xenon headlights, unusual wheels or sporty exterior
+                                packages are typical of a high-end car.
+                            </p>
+                        </li>
+                        <li class="feautures_list">
+                            <h3 class="feautures_subclaim">
+                                High-end interior finishes.
+                            </h3>
+                            <p class="feautures_text">
+                                Carbon fiber dashboards, lava stone, compacted hemp, exclusive matte or glossy hand-carved woods, custom hand-treated
+                                premium leather, heated and massage-mode seats for driver and front passenger, laser etching, lighting packages unique,
+                                sound-insulating windows… Does anyone doubt that this is a high-end car?
+                            </p>
+                        </li>
+                    </ul>
+                    <h1 class="content_claim">
+                        Everything has a price.
+                    </h1>
+                    <p>
+                        Exclusivity is expensive, we know, but we must bear in mind that we pay for cutting-edge design, exclusive equipment and
+                        spectacular and well-studied finishes. The interesting thing is that the second-hand market offers you the possibility
+                        of accessing a high-end vehicle, with exclusive equipment and superior finishes, for much less than what a new one with
+                        fewer extras would cost.
+                    </p>
+                </p>
+            </section>
+        </article>
+        <article class="content">
+            <h1 id="prices" class="content_claim">
+                Prices
+            </h1>
+            <p class="prices_text">
+                The luxury is expensive... But it's never too late to treat yourself
+            </p>
+            <div id="carros" class="prices_grid_layout">
+            </div>
+        </article>
+        <article class="content">
+            <h1 id="contact" class="content_claim">
+                Contact
+            </h1>
+            <div class="form-caja">
+                <h1>
+                    let's make your dream come true.
+                </h1>
+                <form>
+                    <label for="nombre">Name:</label>
+                    <input type="text" name="nombre" id="nombre" alt="nombre">
+                    <br>
+                    <label for="apellido">Last Name:</label>
+                    <input type="text" name="apellido" id="apellido" alt="apellido">
+                    <br>
+                    <label for="celular">Phone:</label>
+                    <input type="number" name="celular" id="celular" alt="celular">
+                    <br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" alt="email">
+                    <br>
+                    <input type="submit" value="Send">
+                </form>
+        </article>
+        <!--Footer-->
+        <div class="footer_wrapper">
+        <footer class="footer">
+                <section class="footer_widget">
+                    <h3 class="footer_widget_title">
+                        Our location
+                    </h3>
+                    <p class="footer-widget-text">
+                        15 Street Sururb Country 6000
+                    </p>
+                </section>
+                <section class="footer_widget">
+                    <h3 class="footer_widget_title">
+                        Phone
+                    </h3>
+                    <p class="footer-widget-text">
+                        +61 040 400 4000
+                    </p>
+                </section>
+                <section class="footer_widget">
+                    <h3 class="footer_widget_title">
+                        Email
+                    </h3>
+                    <p class="footer-widget-text">
+                        dgautomotors@carsales.com.au
+                    </p>
+                </section>
+        </footer>
+        </div>
+    </main>
+</body>
+</html>
